@@ -3,19 +3,31 @@
     /* HAMBURGER */
  
     #bars{
-        display: block !important; 
+        display: block !important;
+        position: relative;
+        right: 30px;
+        cursor: pointer;     
     }
 
+    
     .nav1{
         display: none;
     }
 
     .list{
         position: absolute;
-        display: block;
+        top: 130px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #F8F9FA ;
+        line-height: 30px;
+        width: 100%;
+        height: auto;
     }
-    
 
+  
 
     /* HAMBURGER ENDS */
 
@@ -101,6 +113,7 @@ button:hover{
 
 #bars{
     display: none;
+    font-size: 30px;
 }
 
 /* FIRSTSECTION */
