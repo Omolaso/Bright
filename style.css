@@ -39,6 +39,10 @@
         margin-top: 30px;
     } 
 
+    #image2{
+        display: none;
+    }
+
     /* THIRD SECTION */
      .thirdsection{
         text-align: center;
